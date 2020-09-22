@@ -23,7 +23,7 @@ audio {
   outline: none;
 }
 
-a.btn.btn-danger {
+.btn-danger {
   width: fit-content !important;
 }
 
