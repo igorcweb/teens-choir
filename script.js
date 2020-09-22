@@ -145,21 +145,40 @@ $("a.ota-17").on("click", function () {
   $(".music").addClass("d-none");
   $("#ota-17").removeClass("d-none");
 });
-$("a.assumption").on("click", function () {
+
+$("a.ota-22").on("click", function () {
   $("a").removeClass("active");
   $(this).addClass("active");
   $(".music").addClass("d-none");
-  $("#assumption").removeClass("d-none");
+  $("#ota-22").removeClass("d-none");
 });
-$("a.ota-20").on("click", function () {
+$("a.school").on("click", function () {
   $("a").removeClass("active");
   $(this).addClass("active");
   $(".music").addClass("d-none");
-  $("#ota-20").removeClass("d-none");
+  $("#school").removeClass("d-none");
 });
-$("a.ota-21").on("click", function () {
+$("a.ota-23").on("click", function () {
   $("a").removeClass("active");
   $(this).addClass("active");
   $(".music").addClass("d-none");
-  $("#ota-21").removeClass("d-none");
+  $("#ota-23").removeClass("d-none");
+});
+$("a.ota-25").on("click", function () {
+  $("a").removeClass("active");
+  $(this).addClass("active");
+  $(".music").addClass("d-none");
+  $("#ota-25").removeClass("d-none");
+});
+$("a.ota-26").on("click", function () {
+  $("a").removeClass("active");
+  $(this).addClass("active");
+  $(".music").addClass("d-none");
+  $("#ota-26").removeClass("d-none");
+});
+$("a.ota-27").on("click", function () {
+  $("a").removeClass("active");
+  $(this).addClass("active");
+  $(".music").addClass("d-none");
+  $("#ota-27").removeClass("d-none");
 });
