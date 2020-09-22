@@ -24,7 +24,7 @@ audio {
 }
 
 a.btn.btn-danger {
-  width: fit-content;
+  width: fit-content !important;
 }
 
 /* Small devices (landscape phones, 576px and up) */
