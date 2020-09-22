@@ -23,6 +23,10 @@ audio {
   outline: none;
 }
 
+a.btn.btn-danger {
+  width: fit-content;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
