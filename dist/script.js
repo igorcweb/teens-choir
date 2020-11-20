@@ -182,3 +182,15 @@ $("a.ota-27").on("click", function () {
   $(".music").addClass("d-none");
   $("#ota-27").removeClass("d-none");
 });
+$("a.ctk").on("click", function () {
+  $("a").removeClass("active");
+  $(this).addClass("active");
+  $(".music").addClass("d-none");
+  $("#ctk").removeClass("d-none");
+});
+$("a.thanksgiving").on("click", function () {
+  $("a").removeClass("active");
+  $(this).addClass("active");
+  $(".music").addClass("d-none");
+  $("#thanksgiving").removeClass("d-none");
+});
