@@ -5,11 +5,11 @@ $("a.lm").on("click", function () {
   $("#lm").removeClass("d-none");
 });
 
-$("a.ps").on("click", function () {
+$("a.es").on("click", function () {
   $("a").removeClass("active");
   $(this).addClass("active");
   $(".music").addClass("d-none");
-  $("#ps").removeClass("d-none");
+  $("#es").removeClass("d-none");
 });
 
 $("a.mp").on("click", function () {
