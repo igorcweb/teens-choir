@@ -18,14 +18,12 @@ $('.selection').on('click', function () {
   $('.selection').find('.fa-check').addClass('d-none')
   activate();
   $(".music").addClass("d-none");
-  if ($(this).hasClass('trinity')) {
-    $("#trinity").removeClass("d-none");
+  if ($(this).hasClass('corpus')) {
+    $("#corpus").removeClass("d-none");
   } else if ($(this).hasClass('mp')) {
     $("#mp").removeClass("d-none");
   }
-  else if ($(this).hasClass('pentecost')) {
-    $("#pentecost").removeClass("d-none");
-  }
+
 })
 
 $(document).on('mouseover', '.selection', function () {
