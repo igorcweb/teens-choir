@@ -23,8 +23,8 @@ $('.selection').on('click', function () {
   } else if ($(this).hasClass('mp')) {
     $("#mp").removeClass("d-none");
   }
-  else if ($(this).hasClass('otb13')) {
-    $("#otb13").removeClass("d-none");
+  else if ($(this).hasClass('otb15')) {
+    $("#otb15").removeClass("d-none");
   }
 })
 
